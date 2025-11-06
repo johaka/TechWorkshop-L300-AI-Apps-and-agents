@@ -41,5 +41,6 @@ jobs:
 
       - name: Run customer loyalty agent initializer
         run: |
+          cd src/
           cd app/
           python app/agents/customerLoyaltyAgent_initializer.py
