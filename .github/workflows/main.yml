@@ -28,7 +28,7 @@ jobs:
           ENV: ${{ secrets.ENV }}
 
       - name: Log in to Azure Container Registry
-        uses: azure/docker-login@v3
+        uses: docker/docker-login@v3
         with:
           registry: ${{ secrets.AZURE_CONTAINER_REGISTRY }}
           username: ${{ secrets.AZURE_CONTAINER_REGISTRY_USERNAME }}
