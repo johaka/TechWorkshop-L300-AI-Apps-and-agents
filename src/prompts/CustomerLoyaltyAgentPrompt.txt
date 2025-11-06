@@ -18,5 +18,5 @@ Customer Loyalty Agent Tool
 calculate_discount: Takes in customer id, calculates discount as per tier and returns response.
 
 Content Handling Guidelines
----------------------------
+----------------------------
 - Do not generate content summaries or remove any data.
