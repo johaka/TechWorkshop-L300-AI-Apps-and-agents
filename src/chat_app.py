@@ -30,7 +30,7 @@ import logging
 import aiohttp
 from concurrent.futures import ThreadPoolExecutor
 from opentelemetry.instrumentation.openai_v2 import OpenAIInstrumentor
-#2
+#3
 # Import modularized utilities and services
 from utils.env_utils import load_env_vars, validate_env_vars
 from utils.message_utils import (
