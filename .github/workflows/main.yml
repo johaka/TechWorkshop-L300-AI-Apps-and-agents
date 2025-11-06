@@ -42,4 +42,4 @@ jobs:
       - name: Push Docker image
         run: |
           cd src/
-          docker push $AZURE_CONTAINER_REGISTRY/$IMAGE_NAME:latest
+          docker push xol6wurcjfoiycosureg.azurecr.io/chat-app:latest
